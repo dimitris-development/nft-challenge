@@ -1,0 +1,27 @@
+{
+  "name": "nft-challenge",
+  "version": "1.0.0",
+  "description": "A solution to the NFT Component challenge from FrontEnd Mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx sass --watch app/styles/_main.scss public/styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitris-development/nft-challenge.git"
+  },
+  "keywords": [
+    "nft",
+    "frontendmentor"
+  ],
+  "author": "Dimitrios Collier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimitris-development/nft-challenge/issues"
+  },
+  "homepage": "https://github.com/dimitris-development/nft-challenge#readme",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
+}

@@ -1,0 +1,37 @@
+/* Colour pallette */
+
+$primary: hsl(217, 54%, 11%);
+$surface: hsl(216, 50%, 16%);
+$secondary: hsl(215, 51%, 70%);
+$accent: hsl(178, 100%, 50%);
+$neutral-dark: hsl(215, 32%, 27%);
+$neutral-light: hsl(0, 0%, 100%);
+
+/* Font weights */
+
+$font-weight-large: 600;
+$font-weight-small: 400;
+$font-weight-smaller: 300;
+
+/* Font sizes */
+
+$font-size-default: 1.8rem;
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../../public/fonts/Outfit-VariableFont_wght.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: $font-size-default;
+    background-color: $primary;
+}
